@@ -1,0 +1,26 @@
+.title {
+    color: blue;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+
+.carrito {
+    fill: red;
+    width: 100px;
+    height: 100px;
+}
+
+.numero{
+    background: blue;
+    color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 50%;
+
+}
