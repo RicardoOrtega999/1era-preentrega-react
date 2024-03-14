@@ -1,14 +1,15 @@
 import styles from "./Navbar.module.css"
 import { CartWidget } from '../cart/CartWidget'
+import { Link } from "react-router-dom"
 export const Navbar = () => {
     return (
         <>
            <header> 
             <h4 className={styles.title}>Tienda</h4>
             <nav className={styles.navContainer}>
-                <a href="">producto 1</a>
-                <a href="">producto 2</a>
-                <a href="">producto 3</a>
+                <Link to= '/category/celular'>celulares</Link>
+                <Link to='/category/tablet'>Tablets</Link>
+                <Link to='/category/notebook'>Notebooks</Link>
                 <CartWidget />
             </nav>
             </header>
