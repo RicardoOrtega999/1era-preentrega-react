@@ -1,6 +1,7 @@
 
 import {ItemListContainer} from "./components/itemListContainer/ItemListContainer"
 import {Navbar} from "./components/Navbar/Navbar"
+import ItemCount from "./components/ItemCount/ItemCount"
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
     <Navbar/>
-    <ItemListContainer greeting={'No pude estilizar bien, espero me de tiempo de pushear algo jejej salu2'} />
+    <ItemListContainer greeting={'texto generico salu2'} />
+    <ItemCount stock ={10}/>
     </>
   )
 }
