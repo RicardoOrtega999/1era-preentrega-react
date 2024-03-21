@@ -7,9 +7,10 @@ export const Navbar = () => {
            <header> 
             <h4 className={styles.title}>Tienda</h4>
             <nav className={styles.navContainer}>
-                <Link to= '/category/celular'>celulares</Link>
-                <Link to='/category/tablet'>Tablets</Link>
-                <Link to='/category/notebook'>Notebooks</Link>
+                <Link to= '/'>inicio</Link>
+                <Link to= '/category/polera'>poleras</Link>
+                <Link to='/category/taza'>Tazas</Link>
+                
                 <CartWidget />
             </nav>
             </header>

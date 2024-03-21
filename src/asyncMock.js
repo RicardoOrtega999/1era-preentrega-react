@@ -1,15 +1,15 @@
 const products = [
     { 
         id: '1', 
-        name: 'iphone 12', 
-        price: 1000, 
-        category: 'celular', 
-        img:'https://itechstore.com.ar/wp-content/uploads/2020/06/iphone-12-pro-gold-hero-600x710.png', 
+        name: 'polera pokemon', 
+        price: 10000, 
+        category: 'polera', 
+        img:'https://down-cl.img.susercontent.com/file/59e08dfbe64ba3441a17ba2a840f9d2d_tn', 
         stock: 25, 
-        description:'Descripcion de Iphone 12'
+        description:'polera de charizard'
     },
-    { id: '2', name: 'samsung s21', price: 800, category: 'celular', img:'https://images.samsung.com/is/image/samsung/p6pim/ar/galaxy-s21/gallery/ar-galaxy-s21-5g-g991-sm-g991bzalaro-thumb-368338803', stock: 16, description:'Descripcion de Samsung s21'},
-    { id: '3', name: 'Ipad 8va generacion', price: 1200, category: 'tablet', img:'https://medias.musimundo.com/medias/00406046-143516-143516-01-143516-01.jpg-size515?context=bWFzdGVyfGltYWdlc3w1MjI1MnxpbWFnZS9qcGVnfGhjMC9oYWMvMTAyODM0OTc0NTU2NDYvMDA0MDYwNDYtMTQzNTE2LTE0MzUxNl8wMS0xNDM1MTZfMDEuanBnX3NpemU1MTV8MzA0NmMzNGFhZjUwMDY2YjY5MjU0MjlkMGJlYWMxODAxZjE5ODJhZmJlOTczZThmZjE2NTQxMjU5NjE2OTA4Yw', stock: 0, description:'Descripcion de Ipad'}
+    { id: '2', name: 'taza de dwight', price: 12000, category: 'taza', img:'https://m.media-amazon.com/images/I/41k5O++FAVL.jpg'},
+    { id: '3', name: 'polera zelda', price: 12000, category: 'polera', img:'https://falabella.scene7.com/is/image/Falabella/gsc_120071050_2577253_1?wid=800&hei=800&qlt=70'}
 ]
 
 export const getProducts = () => {
