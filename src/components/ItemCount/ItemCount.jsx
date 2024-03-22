@@ -14,10 +14,10 @@ const ItemCount =({initial =1, stock, onAdd})=> {
     }
     return(
         <article>
-            <h3>{count}</h3>
-            <button onClick={decrement}>-</button>
-            <button onClick ={()=> onAdd(count)}>Agregar al carrito</button>
-            <button onClick ={increment}>+</button>
+            <h3 className=" bg-blue-400 rounded-s-lg py-5">{count}</h3>
+            <button onClick={decrement}  className=" bg-blue-400 px-4 rounded-s-lg ">-</button>
+            <button onClick ={()=> onAdd(count)} className=" bg-blue-400 px-4 rounded-s-lg">Agregar al carrito</button>
+            <button onClick ={increment} className=" bg-blue-400 px-4 rounded-s-lg">+</button>
         </article>
     )
 }
