@@ -12,8 +12,8 @@ const ItemDetailContainer = () => {
         })
     }, [itemId])
     return (
-        <main>
-            <h1> detalle de producto</h1>
+        <main >
+            <h1 className=" text-center"> detalle de producto</h1>
             <ItemDetail {... product}/>
         </main>
     )
